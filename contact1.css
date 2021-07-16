@@ -1,0 +1,132 @@
+*
+{
+	background-color: lightyellow;
+}
+.logo
+{
+	background-color: yellowgreen;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+.leftimage
+{
+	position: absolute;
+	left: 20px;
+}
+.leftimage img
+{
+	width: 90px;
+}
+.leftimage h3{
+	background-color: yellowgreen;
+	position: absolute;
+	color: white;
+	top: 0px;
+	left: 90px;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.sf{
+	padding-top: 2px;
+}
+.contactleft
+{
+	display: inline-table;
+	width: 400px;
+	border:  5px solid red;
+	border-radius: 10px;
+	position: fixed;
+	left: 64px;
+	right: 0;
+	top: 150px;
+	height: 280px;
+}
+.contactright
+{
+	display: inline-table;
+	width: 400px;
+	border:  5px solid blue;
+	border-radius: 10px;
+	position: fixed;
+	left: 800px;
+	padding-right: 0;
+	
+	top: 150px;
+	height: 280px;
+}
+ /* .contactmid
+{
+	display: inline-table;
+	width: 400px;
+	border:  5px solid seagreen;
+	border-radius: 10px;
+	position: fixed;
+	left: 57px;
+	right: 0;
+	top: 200px;
+	height: 200px;
+	/*background-color: olive;*/
+/* }  */
+.contactmid{
+	padding-top: 550px;
+	top: 50%;
+}
+.contactmid h1
+{
+	color: black;
+	width: 100px;
+	text-align: center;
+	right: 5%;
+	
+}
+h1
+{
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: orange;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+h3
+{
+	font-family: sans-serif;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+.fab
+{
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+.icons 
+{
+	position: absolute;
+	left: 42%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 480px;
+}
+.copyright p
+{
+	position: absolute;
+	width: 240px;
+	padding-top: 5px;
+	left: 0px;
+}
+.icons a
+{
+	height: 50px;
+	width: 100px;
+	align-items: center;
+}
